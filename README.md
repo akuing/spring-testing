@@ -158,11 +158,12 @@ Need Jdk 1.8+ and Gradle is installed
 
 修改使用了sqlite dialect库，具体见如下链接：
 using sqlite dialet, reference to the flow link：
+
 https://github.com/EnigmaBridge/hibernate4-sqlite-dialect
 
 默认的导入数据在import.sql中，可以加入你需要的数据
 
-请自行到https://darksky.net/dev注册账户，得到自己的api_secrete Key，然后替换application.properties文件中的weather.api_secret后的值。
+请自行到 https://darksky.net/dev 注册账户，得到自己的api_secrete Key，然后替换application.properties文件中的weather.api_secret后的值。
 
 ### 使用说明
 命令行运行如下命令：
@@ -170,9 +171,13 @@ https://github.com/EnigmaBridge/hibernate4-sqlite-dialect
     ./gradlew bootRun
 
 既可以访问本地的如下四个链接，看看有什么不同：
+
 http://127.0.0.1:8080/hello
+
 http://127.0.0.1:8080/hello/yu
+
 http://127.0.0.1:8080/hello/aaa
+
 http://127.0.0.1:8080/weather
 
 Have fun！！！
