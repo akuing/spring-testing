@@ -151,12 +151,15 @@ You can find lots of different tools, frameworks and libraries being used in the
 
 ### 修改说明
 将数据库部分从Docker和PostgreSQL调整为 sqllite3
+
 Change the Database from PostgreSQL in Docker to sqlite3 Database
 
 需要JDK1.8以上和提前安装Gradle
+
 Need Jdk 1.8+ and Gradle is installed
 
 修改使用了sqlite dialect库，具体见如下链接：
+
 using sqlite dialet, reference to the flow link：
 
 https://github.com/EnigmaBridge/hibernate4-sqlite-dialect
