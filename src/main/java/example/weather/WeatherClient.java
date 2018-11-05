@@ -13,6 +13,9 @@ public class WeatherClient {
 
     private static final String LATITUDE = "53.5511";
     private static final String LONGITUDE = "9.9937";
+    //北京
+//    private static final String LATITUDE = "39.92";
+//    private static final String LONGITUDE = "116.46";
     private final RestTemplate restTemplate;
     private final String weatherServiceUrl;
     private final String weatherServiceApiKey;
